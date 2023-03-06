@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a9cf6319-a172-4b95-a0a7-82cd2104e321" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shopping.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ProductDetails.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/shared/Product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/CartContextProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/context/ProductContextProvider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/helpers/functions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/services/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../121- crypto project - styling.rar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../80b7a24ad27071b18d1be3fd52a43f37.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/.idea/Javascript.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Javascript/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../amy-shamblen-F52I5BtDuhY-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../andy-hermawan-uFdCDgnoNVI-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bar.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bluebag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bluebag2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../bluebag22.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/.idea/crypto.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/components/Coin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/components/Coin.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/components/Landing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/components/Landing.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/components/Loader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/gif/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../crypto/src/services/api.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../darkbag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../digital/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ehimetalor-akhere-unuabona-qgLv3MYYHrQ-unsplash.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../freestocks-_3Q3tsJ01nc-unsplash (1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icons8-collapse-arrow-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icons8-down-24.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icons8-expand-arrow-50 (1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icons8-user-50.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../icons8-user-plumpy.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.idea/login-page.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/src/component/SignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../login-page/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.idea/my-project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-project/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../my-website/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../my-website/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../orangebag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/.idea/react-form.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/logo192.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/logo512.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/components/Login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/components/SignUp.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/components/SignUp.module.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/components/toast.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/components/validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../react-form/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redbag.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../redbag2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/web.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/website.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/arrow-left.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/arrow-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/cart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/dress1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/dress2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/dress3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/dress4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/image1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/image2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/image3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/men1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/men2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/men3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/men4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/slide1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/slide2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/slide3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/assets/image/user.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../website/index.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2MKudHzHztwqOJ0sgN8XT2Um2PG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="D:/web milad class" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a9cf6319-a172-4b95-a0a7-82cd2104e321" name="Changes" comment="" />
+      <created>1677528682519</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677528682519</updated>
+      <workItem from="1677528683723" duration="348000" />
+      <workItem from="1677530176115" duration="90000" />
+      <workItem from="1677569330346" duration="1231000" />
+      <workItem from="1677912183901" duration="62000" />
+      <workItem from="1677912272308" duration="70000" />
+      <workItem from="1677962557230" duration="2114000" />
+      <workItem from="1678005346131" duration="4211000" />
+      <workItem from="1678010985339" duration="3874000" />
+      <workItem from="1678014892091" duration="7111000" />
+      <workItem from="1678029419131" duration="2786000" />
+      <workItem from="1678131009993" duration="3615000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
