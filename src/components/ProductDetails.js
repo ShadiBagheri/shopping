@@ -1,12 +1,12 @@
 import React, { useContext } from 'react';
-import { Link } from "react-router-dom";
+import {Link, useParams} from "react-router-dom";
 //Context
 import { ProductContext } from "../context/ProductContextProvider";
 
 
 const ProductDetails = (props) => {
-
-    const id = props.match.params.id;
+    const params =useParams();
+    const id = params.id;
     const data = useContext(ProductContext);
     const product = data[id - 1];
     const [image, title, description, price, category] = product;

@@ -7,7 +7,7 @@ const ProductContextProvider = ({children}) => {
 
     const [products, setProducts] = useState([]);
 
-    useEffect(() => {
+    useEffect( () => {
         const fetchAPI = async () => {
             setProducts(await getProducts());
         }

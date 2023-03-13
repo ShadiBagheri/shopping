@@ -1,22 +1,29 @@
-import React from 'react';
-
-//Context
-import ProductContextProvider from "./context/ProductContextProvider";
-//Components
-import Home from "./components/Home";
-import {Route} from "react-router-dom";
+import React from "react";
+import {Redirect, Route, Switch} from "react-router-dom";
+// Components
+import Navbar from './components/shared/Navbar';
 import ProductDetails from "./components/ProductDetails";
-import CartContextProvider from "./context/CartContextProvider";
+import Home from "./components/Home";
+import ShopCart from "./components/ShopCart";
+// Context
+import ProductContextProvider from './context/ProductContextProvider';
+import CartContextProvider from './context/CartContextProvider';
 
-const App = () => {
+
+function App() {
     return (
-      <ProductContextProvider>
-              {/*<CartContextProvider></CartContextProvider>*/}
-              {/*<Route path="/products/:id" element={<ProductDetails/>}/>*/}
-              {/*<Route path="/products" element={<Home/>}/>*/}
-          <Home/>
-      </ProductContextProvider>
+        <ProductContextProvider>
+              <CartContextProvider>
+                  <Navbar/>
+                  <Switch>
+                      <Route path="/products/:id" component={ProductDetails}/>
+                      <Route path="/products" component={Home}/>
+                      <Route path="/cart" component={ShopCart}/>
+                      <Redirect to="/products"/>
+                  </Switch>
+              </CartContextProvider>
+        </ProductContextProvider>
     );
-};
+}
 
 export default App;
