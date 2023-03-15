@@ -121,9 +121,12 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopCart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Navbar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shared/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Product.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/CartContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/CartContextProvider.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/context/ProductContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ProductContextProvider.js" afterDir="false" />
@@ -237,7 +240,16 @@
       <workItem from="1678612757061" duration="479000" />
       <workItem from="1678613250442" duration="1340000" />
       <workItem from="1678614880172" duration="54000" />
-      <workItem from="1678735197337" duration="3603000" />
+      <workItem from="1678735197337" duration="5803000" />
+      <workItem from="1678742327713" duration="6947000" />
+      <workItem from="1678772965523" duration="121000" />
+      <workItem from="1678773585997" duration="114000" />
+      <workItem from="1678773709377" duration="82000" />
+      <workItem from="1678773961796" duration="246000" />
+      <workItem from="1678778755459" duration="1685000" />
+      <workItem from="1678893726875" duration="240000" />
+      <workItem from="1678894173976" duration="4051000" />
+      <workItem from="1678901027232" duration="341000" />
     </task>
     <servers />
   </component>
