@@ -1,0 +1,131 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 150px 175px 50px;
+    transition: all 0.2s ease;
+}
+
+.cartContainer {
+    width: 70%;
+}
+
+.payments {
+    width: 27%;
+    background: #fff;
+    border: 1px solid silver;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.payments p {
+    color: #84012e;
+    margin: 20px 20px 10px;
+}
+
+.payments p span {
+    color: #e61a77;
+    font-weight: bold;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 50px 20px 10px;
+}
+
+.checkout {
+    display: inline-block;
+    background: #e61a77;
+    padding: 7px 16px;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.07) 0 1px 1px, rgba(0, 0, 0, 0.07) 0 2px 2px,
+    rgba(0, 0, 0, 0.07) 0 4px 4px, rgba(0, 0, 0, 0.07) 0 4px 8px,
+    rgba(0, 0, 0, 0.07) 0 9px 16px;
+}
+
+.checkout:hover {
+    background-color: #84012e;
+}
+
+.clear {
+    cursor: pointer;
+    color: #e61a77;
+    background: none;
+    border: none;
+    transition: all 0.2s ease;
+    font-size: 1rem;
+}
+
+.clear:hover {
+    color: #84012e;
+}
+
+.complete h3 {
+    color: #84012e;
+    margin: 30px 0 50px;
+    font-size: 1.2rem;
+}
+
+.complete a {
+    background-color: #e61a77;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    width: 90px;
+    font-weight: bold;
+    line-height: 30px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0 4px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0 3px 7px -3px;
+    margin-left: 5px;
+}
+
+.complete a:hover {
+    background-color: #84012e;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        margin: 120px 80px 50px;
+    }
+}
+
+@media (max-width: 1050px) {
+    .container {
+        flex-direction: column-reverse;
+        margin: 120px 80px 50px;
+        align-items: center;
+    }
+    .cartContainer {
+        width: 100%;
+    }
+
+    .payments {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 120px 40px 50px;
+    }
+}
+
+@media (max-width: 555px) {
+    .container {
+        margin: 120px 20px 50px;
+    }
+}

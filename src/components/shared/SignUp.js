@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {validate} from "./validate";
+import styles from "./SignUp.module.css";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import {notify} from "./Toast";
@@ -44,13 +45,13 @@ const SignUp = () => {
         }
     }
     return (
-        <div>
-            <form onSubmit={submitHandler}>
-                <h2>Sign Up</h2>
-                <div>
+        <div className={styles.container}>
+            <form onSubmit={submitHandler} className={styles.formContainer}>
+                <h2 className={styles.header}>Sign Up</h2>
+                <div className={styles.formFiled}>
                     <label>Name</label>
                     <input
-                        // className={(errors.name && touched.name) ? styles.unCompleted : styles.formInput}
+                        className={(errors.name && touched.name) ? styles.unCompleted : styles.formInput}
                         type="text"
                         name="name"
                         value={data.name}
@@ -59,10 +60,9 @@ const SignUp = () => {
                     />
                     {errors.name && touched.name && <span>{errors.name}</span>}
                 </div>
-                <div>
+                <div className={styles.formFiled}>
                     <label>Email</label>
-                    <input
-                        // className={(errors.email && touched.email) ? styles.unCompleted : styles.formInput}
+                    <input className={(errors.email && touched.email) ? styles.unCompleted : styles.formInput}
                            type="text"
                            name="email"
                            value={data.email}
@@ -70,10 +70,9 @@ const SignUp = () => {
                            onFocus={focusHandler}/>
                     {errors.email && touched.email && <span>{errors.email}</span>}
                 </div>
-                <div>
+                <div className={styles.formFiled}>
                     <label>Password</label>
-                    <input
-                        // className={(errors.password && touched.password) ? styles.unCompleted : styles.formInput}
+                    <input className={(errors.password && touched.password) ? styles.unCompleted : styles.formInput}
                            type="password"
                            name="password"
                            value={data.password}
@@ -81,10 +80,9 @@ const SignUp = () => {
                            onFocus={focusHandler}/>
                     {errors.password && touched.password && <span>{errors.password}</span>}
                 </div>
-                <div>
+                <div className={styles.formFiled}>
                     <label>Confirm Password</label>
-                    <input
-                        // className={(errors.confirmPassword && touched.confirmPassword) ? styles.unCompleted : styles.formInput}
+                    <input className={(errors.confirmPassword && touched.confirmPassword) ? styles.unCompleted : styles.formInput}
                            type="password"
                            name="confirmPassword"
                            value={data.confirmPassword}
@@ -92,8 +90,8 @@ const SignUp = () => {
                            onFocus={focusHandler}/>
                     {errors.confirmPassword && touched.confirmPassword && <span>{errors.confirmPassword}</span>}
                 </div>
-                <div>
-                    <div>
+                <div className={styles.formFiled}>
+                    <div className={styles.checkBoxContainer}>
                         <label>I accept terms of privacy policy</label>
                         <input
                             type="checkbox"
@@ -104,7 +102,7 @@ const SignUp = () => {
                     </div>
                     {errors.isAccepted && touched.isAccepted && <span>{errors.isAccepted}</span>}
                 </div>
-                <div>
+                <div className={styles.formButtons}>
                     <Link to="/Login">Login</Link>
                     <button type="submit">Sign Up</button>
                 </div>

@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9cf6319-a172-4b95-a0a7-82cd2104e321" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Login.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/shared/Toast.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../121- crypto project - styling.rar" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../80b7a24ad27071b18d1be3fd52a43f37.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Javascript/.idea/Javascript.iml" beforeDir="false" />
@@ -121,13 +119,19 @@
       <change beforePath="$PROJECT_DIR$/../redbag.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../redbag2.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/icon/search.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/cart.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/cart.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/searchIcon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/spinner.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/trash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/trash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icon/user.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icon/user.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ProductDetails.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ProductDetails.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ShopCart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ShopCart.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shared/Cart.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Cart.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Login.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/shared/Navbar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Navbar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/context/ProductContextProvider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/context/ProductContextProvider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/Product.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/Product.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/shared/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/shared/SignUp.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/.idea/web.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../web/.idea/workspace.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../website/.idea/modules.xml" beforeDir="false" />
@@ -249,7 +253,8 @@
       <workItem from="1678908972389" duration="4035000" />
       <workItem from="1679042179908" duration="4226000" />
       <workItem from="1679046753963" duration="14000" />
-      <workItem from="1679046840543" duration="546000" />
+      <workItem from="1679046840543" duration="5529000" />
+      <workItem from="1679052436414" duration="428000" />
     </task>
     <servers />
   </component>
