@@ -1,11 +1,12 @@
-import React, {useContext} from 'react';
+import React, { useContext } from 'react';
 import {Link} from "react-router-dom";
+//Components
+import Login from "./Login";
 //Context
 import { CartContext } from "../../context/CartContextProvider";
 //Icon
 import cart from "../../assets/icon/cart.png";
-import search from "../../assets/icon/search.png";
-
+import user from "../../assets/icon/user.png";
 
 const Navbar = () => {
 
@@ -14,16 +15,17 @@ const Navbar = () => {
     return (
         <div>
             <div>
-                <img src={search} alt="search"/>
-                <input type="text" placeholder="search"/>
+                <div>
+                   <Link to="/SignUp" ><img src={user} alt="user"/></Link>
+
+                </div>
             </div>
-            <div>
+             <div>
                 <Link to="/products">Products</Link>
                 <div>
                     <Link to="/cart"><img src={cart} alt="cart"/></Link>
                     <span>{state.itemsCounter}</span>
                 </div>
-
             </div>
         </div>
     );

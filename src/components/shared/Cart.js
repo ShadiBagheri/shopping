@@ -13,7 +13,7 @@ const Cart = (props) => {
 
     return (
         <div>
-            <img src={image} alt="image"/>
+            <img src={image} alt="img"/>
             <div>
                 <h3>{shorten(title)}</h3>
                 <p>{price} $</p>
